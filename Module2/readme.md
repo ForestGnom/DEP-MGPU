@@ -1,5 +1,5 @@
 Структура файлов:
-1. [Концептуальная и логическая схемы прототипа базы данных](Module2/dw.png)
+1. [Концептуальная и логическая схемы прототипа базы данных]([Module2/dw.png](https://github.com/ForestGnom/DEP-MGPU/blob/870f5a8611f89f8b1d433f64166b737c971d8960/Module2/dw.png))
 o DDL-скрипт прототипа БД.
 o create_tables.sql - создание всех таблиц.
 o variant_XX_tasks.sql - решение задач варианта.
