@@ -1,0 +1,49 @@
+# Путь к файлу: models/marts/schema.yml
+
+version: 2
+
+models:
+  - name: shipping_dim
+    columns:
+      - name: ship_id
+        tests:
+          - unique
+          - not_null
+
+  - name: customer_dim
+    columns:
+      - name: cust_id
+        tests:
+          - unique
+          - not_null
+
+  - name: geo_dim
+    columns:
+      - name: geo_id
+        tests:
+          - unique
+          - not_null
+
+  - name: product_dim
+    columns:
+      - name: prod_id
+        tests:
+          - unique
+          - not_null
+
+  - name: sales_fact
+    columns:
+      - name: cust_id
+        tests:
+          - relationships:
+              arguments:  
+                to: ref('customer_dim')
+                field: cust_id
+
+  - name: mart_pareto_customer_analysis
+    description: "Анализ Парето - процент выручки от 20% самых прибыльных клиентов"
+    columns:
+      - name: percent_sales_from_top_20_percent_customers
+        description: "Процент от общей выручки, который приносят 20% самых прибыльных клиентов"
+        tests:
+          - not_null
