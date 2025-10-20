@@ -1,0 +1,56 @@
+{
+    "path_count": 136,
+    "parsed_path_count": 136,
+    "static_analysis_path_count": 5,
+    "static_analysis_parsed_path_count": 5,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.1288648789995932,
+    "load_macros_elapsed": 0.6106349669998963,
+    "parse_project_elapsed": 0.814563683000415,
+    "patch_sources_elapsed": 0.02194722000058391,
+    "process_manifest_elapsed": 0.09415303099922312,
+    "load_all_elapsed": 1.799489732999973,
+    "projects": [
+        {
+            "project_name": "superstore_dwh_advanced",
+            "elapsed": 0.8070624210004098,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.22290348100068513,
+                    "parsed_path_count": 5
+                },
+                {
+                    "parser": "snapshot",
+                    "elapsed": 0.19557166599952325,
+                    "parsed_path_count": 1
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.3851725679996889,
+                    "parsed_path_count": 3
+                }
+            ],
+            "parsed_path_count": 9
+        },
+        {
+            "project_name": "dbt_postgres",
+            "elapsed": 0.004121871999814175,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0031969909996405477,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.00018265699964103987,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}
