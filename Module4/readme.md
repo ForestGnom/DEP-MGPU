@@ -8,7 +8,7 @@
 ### 2. [Граф зависимостей (Lineage)](screenshots/Рисунок1.png)
 ### 3. Ключевые фрагменты кода
 - [Код промежуточной модели](superstore_dwh_advanced/models/intermediate/int_sales_orders.sql)
-- [Код индивидуальной mart-модели](superstore_dwh_advanced/models/marts/mart_valuable_dormant_customers.sql) 
+- [Код индивидуальной mart-модели. Вариант 30](superstore_dwh_advanced/models/marts/mart_valuable_dormant_customers.sql) 
 - [Код кастомного теста](superstore_dwh_advanced/tests/generic/test_is_positive.sql)
 - [Код снепшота](superstore_dwh_advanced/snapshots/snapshot_product_dim.sql)
 ### 4. Результаты (Скриншоты)
