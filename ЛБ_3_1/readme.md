@@ -58,8 +58,8 @@ CSV Data → ETL Pipeline → PostgreSQL → Data Marts → CSV Data Marts → D
 ## Шаги реализации
 
 1. **Подготовка данных**  
-   - Экспорт ответов из Google Forms  
-   - Анализ структуры и очистка (Python)  
+   - [Экспорт ответов из Google Forms](data/survey_responses_raw.csv) 
+   - [Анализ структуры и очистка (Python)](analysis/data_analysis.ipynb)  
    - Загрузка в PostgreSQL (`raw_data.cost_management_survey`)  
 
 2. **Создание витрин данных**  
