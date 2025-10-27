@@ -70,7 +70,7 @@ CSV Data → ETL Pipeline → PostgreSQL → Data Marts → CSV Data Marts → D
      - Проверку созданных объектов
        
 3. **Выгрузка витрин данных в CSV**
-     - Выгрузка витрин представлена на [скриншоте1](screensots\export table.png) и [скриншоте2](screensots\export table2.png) 
+     - Выгрузка витрин представлена на [скриншоте1](screenshots/exporttables.png) и [скриншоте2](screenshots/exporttables2.png) 
        
 5. **Настройка Yandex DataLens**  
    - Подключение к PostgreSQL  
