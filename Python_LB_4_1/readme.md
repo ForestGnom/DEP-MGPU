@@ -1,5 +1,5 @@
 # Лабораторная работа 4.1 Построение и оценка модели для прогнозирования оттока клиентов.
 ## Вариант 30. Выполнил: Трухачев Н.А.
 ### Лабораторная работа имеет следующую структуру:
-- [bi_lw_02_EDA_student.ipynb](bi_lw_02_EDA_student.ipynb)
-- [cardio_train.csv](cardio_train.csv)
+- [bi_ml_4_lw_student.ipynb](bi_ml_4_lw_student.ipynb)
+- [Churn_Modelling.csv](Churn_Modelling.csv)
