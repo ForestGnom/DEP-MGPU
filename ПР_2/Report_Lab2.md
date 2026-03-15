@@ -18,6 +18,21 @@
 *   **Cassandra (Wide-Column).** Логирование просмотров (Clickstream). Генерируется огромный непрерывный поток событий (паузы, перемотки, просмотры). Архитектура Cassandra обеспечивает высочайшую скорость записи (High Write Throughput) и линейную масштабируемость.
 *   **GraphDB (Graph/RDF).** Построение рекомендательной системы. Графовая БД эффективно обрабатывает сложные многоуровневые связи (Актёр → Фильм → Жанр → Режиссёр), что позволяет находить скрытые закономерности для персонализированных рекомендаций.
 
+### Cтруктура репозитория
+├── Report_Lab2.md            # Отчет о выполнении работы
+
+├── docker-compose.yml            # Файлы запуска контейнеров 
+
+├── scripts/
+
+│   ├── generate_data.ipynb   # Jupyter ноутбук с генерацией данных
+
+├── data/
+
+│   ├── movies_graph.ttl      # RDF-файл для GraphDB
+
+│   └── sample_movies.json    # Пример данных из MongoDB
+
 ### 1.2 Архитектура решения
 
 ```mermaid
@@ -65,6 +80,10 @@ cd ~/Downloads/dba/nonrel/graphdb
 sudo docker compose down && sudo docker compose up -d
 ```
 <img width="974" height="548" alt="Image" src="https://github.com/user-attachments/assets/3630a85a-ddaf-47e4-8b79-5f6a4e55b151" />
+
+Либо запуск всех приложений с помощью файла [docker-compose.yml](docker-compose.yml)
+
+<img width="1919" height="1053" alt="Image" src="https://github.com/user-attachments/assets/6f8e4a76-b060-4bd2-bb92-47f2b51e8415" />
 ---
 
 ## 3. Генерация и проверка баз данных (Python + Faker)
