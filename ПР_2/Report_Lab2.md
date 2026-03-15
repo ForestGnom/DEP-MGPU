@@ -64,7 +64,7 @@ sudo docker compose down && sudo docker compose up -d
 cd ~/Downloads/dba/nonrel/graphdb
 sudo docker compose down && sudo docker compose up -d
 ```
-Скрин 1
+<img width="974" height="548" alt="Image" src="https://github.com/user-attachments/assets/3630a85a-ddaf-47e4-8b79-5f6a4e55b151" />
 ---
 
 ## 3. Генерация и проверка баз данных (Python + Faker)
@@ -72,7 +72,9 @@ sudo docker compose down && sudo docker compose up -d
 
 ### Генерация и загрузка данных
 В **JupyterLab** создаем ноутбук и выполняем следующий код:
-Срины 2 - 4, 8
+<img width="974" height="531" alt="Image" src="https://github.com/user-attachments/assets/65d21b95-50e9-45c1-918e-e9eecbe4a5b2" />
+<img width="974" height="826" alt="Image" src="https://github.com/user-attachments/assets/56584c26-6c99-44c1-9b5e-3e3fde5c548d" />
+<img width="974" height="841" alt="Image" src="https://github.com/user-attachments/assets/ccdcd263-ed77-46c5-a78e-a68872a6bdd9" />
 
 **Действие в GraphDB:**
 1. Открыть `http://localhost:7200`.
@@ -80,35 +82,36 @@ sudo docker compose down && sudo docker compose up -d
 3. Перейти в *Import -> RDF*, загрузить `movies_graph.ttl` и импортировать.
 
 ### Проверка загруженных данных
+<img width="974" height="350" alt="Image" src="https://github.com/user-attachments/assets/0de1cd6b-988f-4adb-acbb-f595d15b585b" />
 **MongoDB**
-Скрин 5
+<img width="974" height="578" alt="Image" src="https://github.com/user-attachments/assets/9bdae0da-b798-4917-8c6b-5c53984b960f" />
 **Cassandra**
-Скрин 6
+<img width="974" height="236" alt="Image" src="https://github.com/user-attachments/assets/b07326e4-f978-4916-bf9b-eed8f10f126a" />
 **GraphDB**
-Скрин 7
+<img width="974" height="493" alt="Image" src="https://github.com/user-attachments/assets/02643499-6fc6-40eb-bf38-21c03f79caf3" />
 
 ## 4. Выполнение Варианта 30
 ### 4.1. Задание 1. Cassandra. Сжатие таблиц. Настройка стратегии компрессии.
-Скрин 9
+<img width="974" height="230" alt="Image" src="https://github.com/user-attachments/assets/0cea39af-af6a-4e89-af62-d6f184d16230" />
 Стратегия сжатия настроена (используется LZ4Compressor с размером чанка 64 КБ). Таким образом, все требования задания 1 выполнены.
 
 ### 4.2. Задание 2. Фильмы Keanu Reeves. Фильмы с рейтингом >8.0. Актеры=Режиссеры.
 
 **Запрос 1. Фильмы с Киану Ривзом**
-Скрин 10
+<img width="974" height="1119" alt="Image" src="https://github.com/user-attachments/assets/3243383e-93b0-46f6-b1de-5f7427d7bccd" />
  Результат выполнения SPARQL-запроса для поиска фильмов с участием Киану Ривза. Найдено 26 фильмов, отсортированных по убыванию рейтинга. Самый высокий рейтинг (9.3) у фильма "Upgradeable scalable collaboration". В таблице представлены все найденные фильмы с указанием названия и рейтинга.
  
 **Запрос 2. Фильмы с рейтингом > 8.0**
-Скрин 11
+<img width="974" height="879" alt="Image" src="https://github.com/user-attachments/assets/a448aa07-53f0-4f80-a390-bc577dae1604" />
 Результат выполнения SPARQL-запроса для поиска фильмов с рейтингом выше 8.0. Найдено 14 фильмов. Лидер рейтинга (9.8) — фильм "Visionary web-enabled open system". Эти фильмы представляют ядро качественного контента платформы.
 
 **Запрос 3. Актеры, которые также являются режиссерами**
-Скрин 12
+<img width="974" height="418" alt="Image" src="https://github.com/user-attachments/assets/ed927fa0-d63c-4521-b7fe-dbd04438ffa8" />
 Результат выполнения SPARQL-запроса для поиска людей, которые в одном фильме выступают и как актёры, и как режиссёры. В сгенерированных данных найден один такой человек — Keanu Reeves. Это демонстрирует возможность графовой БД выявлять сложные семантические связи.
 
 ### 4.3. Задание 3. Влияние "Киану Ривза" на общий рейтинг фильмов. Статистический обзор.
 **На скриншоте представлены результаты статистического анализа.**
-Скрин 13
+<img width="974" height="812" alt="Image" src="https://github.com/user-attachments/assets/b22832f4-9211-44d1-89e9-6b7a447558b6" />
 - Гистограмма распределения рейтингов для двух групп фильмов.
 - Boxplot, показывающий медианы, квартили и выбросы.
 - Количественные показатели: фильмов с Киану — 14, средний рейтинг 7.35; фильмов без Киану — 36, средний рейтинг 6.82; разница +0.53.
