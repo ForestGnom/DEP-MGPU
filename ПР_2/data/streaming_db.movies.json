@@ -1,0 +1,591 @@
+[{
+  "_id": "Movie_001",
+  "title": "Decentralized_composite_process_improvement",
+  "genre": "Drama",
+  "rating": 8.3,
+  "actors": [
+    "Brad Pitt",
+    "Natalie Portman",
+    "Scarlett Johansson"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_002",
+  "title": "Re-contextualized_incremental_challenge",
+  "genre": "Romance",
+  "rating": 3.2,
+  "actors": [
+    "Tom Hanks",
+    "Angelina Jolie"
+  ],
+  "director": "Clint Eastwood"
+},
+{
+  "_id": "Movie_003",
+  "title": "Synchronized_asymmetric_paradigm",
+  "genre": "Drama",
+  "rating": 5.4,
+  "actors": [
+    "Jennifer Lawrence",
+    "Robert Downey Jr.",
+    "Keanu Reeves",
+    "Christian Bale"
+  ],
+  "director": "Greta Gerwig"
+},
+{
+  "_id": "Movie_004",
+  "title": "Function-based_incremental_open_system",
+  "genre": "Comedy",
+  "rating": 7.9,
+  "actors": [
+    "Tom Hanks",
+    "Brad Pitt"
+  ],
+  "director": "Lana Wachowski"
+},
+{
+  "_id": "Movie_005",
+  "title": "Ergonomic_responsive_middleware",
+  "genre": "Horror",
+  "rating": 6,
+  "actors": [
+    "Jennifer Lawrence",
+    "Natalie Portman"
+  ],
+  "director": "Ron Howard"
+},
+{
+  "_id": "Movie_006",
+  "title": "Automated_secondary_open_system",
+  "genre": "Action",
+  "rating": 8.3,
+  "actors": [
+    "Robert Downey Jr.",
+    "Johnny Depp",
+    "Tom Hanks"
+  ],
+  "director": "Quentin Tarantino"
+},
+{
+  "_id": "Movie_007",
+  "title": "Multi-layered_bi-directional_algorithm",
+  "genre": "Romance",
+  "rating": 7.7,
+  "actors": [
+    "Keanu Reeves",
+    "Angelina Jolie",
+    "Leonardo DiCaprio"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_008",
+  "title": "Cross-platform_dynamic_challenge",
+  "genre": "Sci-Fi",
+  "rating": 8.2,
+  "actors": [
+    "Natalie Portman",
+    "Angelina Jolie"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_009",
+  "title": "Multi-tiered_full-range_methodology",
+  "genre": "Thriller",
+  "rating": 7.9,
+  "actors": [
+    "Meryl Streep",
+    "Scarlett Johansson",
+    "Angelina Jolie"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_010",
+  "title": "Down-sized_5thgeneration_Internet_solution",
+  "genre": "Sci-Fi",
+  "rating": 6.6,
+  "actors": [
+    "Angelina Jolie",
+    "Robert Downey Jr.",
+    "Leonardo DiCaprio"
+  ],
+  "director": "Martin Scorsese"
+},
+{
+  "_id": "Movie_011",
+  "title": "Seamless_didactic_migration",
+  "genre": "Action",
+  "rating": 7,
+  "actors": [
+    "Leonardo DiCaprio",
+    "Johnny Depp",
+    "Brad Pitt",
+    "Scarlett Johansson"
+  ],
+  "director": "Martin Scorsese"
+},
+{
+  "_id": "Movie_012",
+  "title": "Seamless_methodical_extranet",
+  "genre": "Comedy",
+  "rating": 5.1,
+  "actors": [
+    "Meryl Streep",
+    "Leonardo DiCaprio",
+    "Jennifer Lawrence"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_013",
+  "title": "Synchronized_24/7_secured_line",
+  "genre": "Romance",
+  "rating": 5,
+  "actors": [
+    "Johnny Depp",
+    "Jennifer Lawrence"
+  ],
+  "director": "Steven Spielberg"
+},
+{
+  "_id": "Movie_014",
+  "title": "Re-contextualized_composite_customer_loyalty",
+  "genre": "Horror",
+  "rating": 7.9,
+  "actors": [
+    "Robert Downey Jr.",
+    "Natalie Portman"
+  ],
+  "director": "Martin Scorsese"
+},
+{
+  "_id": "Movie_015",
+  "title": "Horizontal_zero_administration_success",
+  "genre": "Romance",
+  "rating": 8.7,
+  "actors": [
+    "Angelina Jolie",
+    "Leonardo DiCaprio"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_016",
+  "title": "Monitored_attitude-oriented_framework",
+  "genre": "Drama",
+  "rating": 8.4,
+  "actors": [
+    "Keanu Reeves",
+    "Robert Downey Jr.",
+    "Angelina Jolie",
+    "Natalie Portman"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_017",
+  "title": "Persevering_5thgeneration_architecture",
+  "genre": "Thriller",
+  "rating": 9,
+  "actors": [
+    "Keanu Reeves",
+    "Leonardo DiCaprio",
+    "Tom Hanks"
+  ],
+  "director": "James Cameron"
+},
+{
+  "_id": "Movie_018",
+  "title": "Universal_non-volatile_benchmark",
+  "genre": "Comedy",
+  "rating": 6.6,
+  "actors": [
+    "Meryl Streep",
+    "Robert Downey Jr.",
+    "Jennifer Lawrence"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_019",
+  "title": "Pre-emptive_intermediate_website",
+  "genre": "Romance",
+  "rating": 7.7,
+  "actors": [
+    "Jennifer Lawrence",
+    "Christian Bale",
+    "Robert Downey Jr.",
+    "Brad Pitt"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_020",
+  "title": "Reduced_reciprocal_budgetary_management",
+  "genre": "Romance",
+  "rating": 8.8,
+  "actors": [
+    "Denzel Washington",
+    "Angelina Jolie"
+  ],
+  "director": "James Cameron"
+},
+{
+  "_id": "Movie_021",
+  "title": "Configurable_local_task-force",
+  "genre": "Thriller",
+  "rating": 4,
+  "actors": [
+    "Scarlett Johansson",
+    "Meryl Streep",
+    "Denzel Washington"
+  ],
+  "director": "Ron Howard"
+},
+{
+  "_id": "Movie_022",
+  "title": "Expanded_explicit_groupware",
+  "genre": "Drama",
+  "rating": 5.1,
+  "actors": [
+    "Tom Hanks",
+    "Keanu Reeves",
+    "Christian Bale",
+    "Natalie Portman"
+  ],
+  "director": "Christopher Nolan"
+},
+{
+  "_id": "Movie_023",
+  "title": "Object-based_stable_structure",
+  "genre": "Thriller",
+  "rating": 9.4,
+  "actors": [
+    "Keanu Reeves",
+    "Jennifer Lawrence"
+  ],
+  "director": "Keanu Reeves"
+},
+{
+  "_id": "Movie_024",
+  "title": "Distributed_mission-critical_instruction_set",
+  "genre": "Comedy",
+  "rating": 8.6,
+  "actors": [
+    "Jennifer Lawrence",
+    "Tom Hanks",
+    "Brad Pitt"
+  ],
+  "director": "Quentin Tarantino"
+},
+{
+  "_id": "Movie_025",
+  "title": "Re-contextualized_multi-state_Local_Area_Network",
+  "genre": "Action",
+  "rating": 6.9,
+  "actors": [
+    "Keanu Reeves",
+    "Johnny Depp"
+  ],
+  "director": "Ridley Scott"
+},
+{
+  "_id": "Movie_026",
+  "title": "Open-architected_global_conglomeration",
+  "genre": "Sci-Fi",
+  "rating": 8.8,
+  "actors": [
+    "Keanu Reeves",
+    "Johnny Depp",
+    "Tom Hanks"
+  ],
+  "director": "Lana Wachowski"
+},
+{
+  "_id": "Movie_027",
+  "title": "Reverse-engineered_optimizing_structure",
+  "genre": "Horror",
+  "rating": 6.9,
+  "actors": [
+    "Christian Bale",
+    "Jennifer Lawrence",
+    "Tom Hanks",
+    "Scarlett Johansson"
+  ],
+  "director": "James Cameron"
+},
+{
+  "_id": "Movie_028",
+  "title": "Persistent_national_policy",
+  "genre": "Comedy",
+  "rating": 8.2,
+  "actors": [
+    "Johnny Depp",
+    "Tom Hanks"
+  ],
+  "director": "Keanu Reeves"
+},
+{
+  "_id": "Movie_029",
+  "title": "User-friendly_analyzing_encoding",
+  "genre": "Comedy",
+  "rating": 7.8,
+  "actors": [
+    "Meryl Streep",
+    "Denzel Washington"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_030",
+  "title": "Streamlined_client-server_encryption",
+  "genre": "Comedy",
+  "rating": 3.5,
+  "actors": [
+    "Keanu Reeves",
+    "Tom Hanks",
+    "Christian Bale"
+  ],
+  "director": "Steven Spielberg"
+},
+{
+  "_id": "Movie_031",
+  "title": "Down-sized_3rdgeneration_encryption",
+  "genre": "Comedy",
+  "rating": 7.3,
+  "actors": [
+    "Meryl Streep",
+    "Christian Bale",
+    "Keanu Reeves",
+    "Scarlett Johansson"
+  ],
+  "director": "Steven Spielberg"
+},
+{
+  "_id": "Movie_032",
+  "title": "Re-contextualized_24/7_moderator",
+  "genre": "Horror",
+  "rating": 5.2,
+  "actors": [
+    "Keanu Reeves",
+    "Johnny Depp",
+    "Meryl Streep"
+  ],
+  "director": "David Fincher"
+},
+{
+  "_id": "Movie_033",
+  "title": "Optimized_3rdgeneration_hardware",
+  "genre": "Romance",
+  "rating": 9,
+  "actors": [
+    "Keanu Reeves",
+    "Brad Pitt",
+    "Denzel Washington"
+  ],
+  "director": "Lana Wachowski"
+},
+{
+  "_id": "Movie_034",
+  "title": "Multi-layered_zero_administration_open_architecture",
+  "genre": "Sci-Fi",
+  "rating": 4.3,
+  "actors": [
+    "Keanu Reeves",
+    "Denzel Washington",
+    "Brad Pitt"
+  ],
+  "director": "Ron Howard"
+},
+{
+  "_id": "Movie_035",
+  "title": "Profound_clear-thinking_software",
+  "genre": "Romance",
+  "rating": 8.9,
+  "actors": [
+    "Brad Pitt",
+    "Johnny Depp",
+    "Robert Downey Jr."
+  ],
+  "director": "Ridley Scott"
+},
+{
+  "_id": "Movie_036",
+  "title": "Horizontal_static_ability",
+  "genre": "Action",
+  "rating": 8.5,
+  "actors": [
+    "Keanu Reeves",
+    "Leonardo DiCaprio",
+    "Meryl Streep",
+    "Scarlett Johansson"
+  ],
+  "director": "Ron Howard"
+},
+{
+  "_id": "Movie_037",
+  "title": "Universal_high-level_parallelism",
+  "genre": "Thriller",
+  "rating": 4.8,
+  "actors": [
+    "Keanu Reeves",
+    "Leonardo DiCaprio"
+  ],
+  "director": "Ron Howard"
+},
+{
+  "_id": "Movie_038",
+  "title": "Quality-focused_modular_database",
+  "genre": "Comedy",
+  "rating": 4.5,
+  "actors": [
+    "Johnny Depp",
+    "Jennifer Lawrence",
+    "Angelina Jolie"
+  ],
+  "director": "Steven Spielberg"
+},
+{
+  "_id": "Movie_039",
+  "title": "Ergonomic_multimedia_emulation",
+  "genre": "Action",
+  "rating": 4.4,
+  "actors": [
+    "Scarlett Johansson",
+    "Johnny Depp",
+    "Brad Pitt"
+  ],
+  "director": "Clint Eastwood"
+},
+{
+  "_id": "Movie_040",
+  "title": "Persevering_systematic_infrastructure",
+  "genre": "Romance",
+  "rating": 4,
+  "actors": [
+    "Robert Downey Jr.",
+    "Tom Hanks"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_041",
+  "title": "Re-contextualized_disintermediate_initiative",
+  "genre": "Sci-Fi",
+  "rating": 3,
+  "actors": [
+    "Leonardo DiCaprio",
+    "Denzel Washington",
+    "Christian Bale",
+    "Johnny Depp"
+  ],
+  "director": "Martin Scorsese"
+},
+{
+  "_id": "Movie_042",
+  "title": "Multi-lateral_leadingedge_system_engine",
+  "genre": "Sci-Fi",
+  "rating": 4.3,
+  "actors": [
+    "Christian Bale",
+    "Scarlett Johansson",
+    "Keanu Reeves",
+    "Tom Hanks"
+  ],
+  "director": "Peter Jackson"
+},
+{
+  "_id": "Movie_043",
+  "title": "Customer-focused_explicit_utilization",
+  "genre": "Action",
+  "rating": 7,
+  "actors": [
+    "Angelina Jolie",
+    "Meryl Streep"
+  ],
+  "director": "Martin Scorsese"
+},
+{
+  "_id": "Movie_044",
+  "title": "User-friendly_even-keeled_function",
+  "genre": "Thriller",
+  "rating": 4.5,
+  "actors": [
+    "Keanu Reeves",
+    "Angelina Jolie",
+    "Brad Pitt"
+  ],
+  "director": "Keanu Reeves"
+},
+{
+  "_id": "Movie_045",
+  "title": "Monitored_responsive_extranet",
+  "genre": "Comedy",
+  "rating": 7.5,
+  "actors": [
+    "Natalie Portman",
+    "Christian Bale",
+    "Brad Pitt",
+    "Tom Hanks"
+  ],
+  "director": "Ridley Scott"
+},
+{
+  "_id": "Movie_046",
+  "title": "Exclusive_leadingedge_paradigm",
+  "genre": "Horror",
+  "rating": 4,
+  "actors": [
+    "Denzel Washington",
+    "Meryl Streep"
+  ],
+  "director": "Clint Eastwood"
+},
+{
+  "_id": "Movie_047",
+  "title": "Open-architected_24/7_budgetary_management",
+  "genre": "Thriller",
+  "rating": 3.7,
+  "actors": [
+    "Meryl Streep",
+    "Johnny Depp"
+  ],
+  "director": "Steven Spielberg"
+},
+{
+  "_id": "Movie_048",
+  "title": "Universal_bifurcated_data-warehouse",
+  "genre": "Drama",
+  "rating": 6,
+  "actors": [
+    "Robert Downey Jr.",
+    "Jennifer Lawrence"
+  ],
+  "director": "David Fincher"
+},
+{
+  "_id": "Movie_049",
+  "title": "Advanced_cohesive_hardware",
+  "genre": "Sci-Fi",
+  "rating": 6.9,
+  "actors": [
+    "Keanu Reeves",
+    "Natalie Portman"
+  ],
+  "director": "David Fincher"
+},
+{
+  "_id": "Movie_050",
+  "title": "Re-contextualized_bottom-line_workforce",
+  "genre": "Romance",
+  "rating": 3.8,
+  "actors": [
+    "Keanu Reeves",
+    "Johnny Depp"
+  ],
+  "director": "Ridley Scott"
+}]

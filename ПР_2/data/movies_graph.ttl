@@ -1,0 +1,445 @@
+@prefix ex: <http://example.org/streaming#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Movie_001 a ex:Movie ;
+    ex:title "Cross-group_systemic_software" ;
+    ex:genre "Romance" ;
+    ex:rating "7.2"^^xsd:decimal ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasDirector "Keanu Reeves" .
+
+ex:Movie_002 a ex:Movie ;
+    ex:title "Proactive_clear-thinking_model" ;
+    ex:genre "Action" ;
+    ex:rating "3.2"^^xsd:decimal ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_003 a ex:Movie ;
+    ex:title "Upgradable_scalable_collaboration" ;
+    ex:genre "Action" ;
+    ex:rating "9.3"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_004 a ex:Movie ;
+    ex:title "Quality-focused_motivating_structure" ;
+    ex:genre "Action" ;
+    ex:rating "7.7"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasDirector "Greta Gerwig" .
+
+ex:Movie_005 a ex:Movie ;
+    ex:title "Extended_interactive_capacity" ;
+    ex:genre "Romance" ;
+    ex:rating "4.3"^^xsd:decimal ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Quentin Tarantino" .
+
+ex:Movie_006 a ex:Movie ;
+    ex:title "Visionary_web-enabled_open_system" ;
+    ex:genre "Romance" ;
+    ex:rating "9.8"^^xsd:decimal ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_007 a ex:Movie ;
+    ex:title "Cross-platform_next_generation_leverage" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.4"^^xsd:decimal ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "David Fincher" .
+
+ex:Movie_008 a ex:Movie ;
+    ex:title "Compatible_dynamic_function" ;
+    ex:genre "Comedy" ;
+    ex:rating "4.1"^^xsd:decimal ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "James Cameron" .
+
+ex:Movie_009 a ex:Movie ;
+    ex:title "Down-sized_even-keeled_challenge" ;
+    ex:genre "Comedy" ;
+    ex:rating "5.0"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasDirector "Martin Scorsese" .
+
+ex:Movie_010 a ex:Movie ;
+    ex:title "Distributed_value-added_budgetary_management" ;
+    ex:genre "Drama" ;
+    ex:rating "6.9"^^xsd:decimal ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_011 a ex:Movie ;
+    ex:title "Vision-oriented_methodical_open_architecture" ;
+    ex:genre "Horror" ;
+    ex:rating "7.8"^^xsd:decimal ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasDirector "Keanu Reeves" .
+
+ex:Movie_012 a ex:Movie ;
+    ex:title "Compatible_client-driven_emulation" ;
+    ex:genre "Horror" ;
+    ex:rating "8.2"^^xsd:decimal ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_013 a ex:Movie ;
+    ex:title "Multi-lateral_object-oriented_strategy" ;
+    ex:genre "Thriller" ;
+    ex:rating "9.1"^^xsd:decimal ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasDirector "Keanu Reeves" .
+
+ex:Movie_014 a ex:Movie ;
+    ex:title "Persevering_upward-trending_hardware" ;
+    ex:genre "Comedy" ;
+    ex:rating "9.2"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasDirector "James Cameron" .
+
+ex:Movie_015 a ex:Movie ;
+    ex:title "Synergistic_demand-driven_secured_line" ;
+    ex:genre "Horror" ;
+    ex:rating "4.7"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_016 a ex:Movie ;
+    ex:title "Multi-layered_incremental_knowledgebase" ;
+    ex:genre "Thriller" ;
+    ex:rating "5.7"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasDirector "Steven Spielberg" .
+
+ex:Movie_017 a ex:Movie ;
+    ex:title "Universal_client-server_middleware" ;
+    ex:genre "Romance" ;
+    ex:rating "4.0"^^xsd:decimal ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasDirector "Greta Gerwig" .
+
+ex:Movie_018 a ex:Movie ;
+    ex:title "Switchable_didactic_productivity" ;
+    ex:genre "Comedy" ;
+    ex:rating "8.5"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "David Fincher" .
+
+ex:Movie_019 a ex:Movie ;
+    ex:title "Enterprise-wide_full-range_support" ;
+    ex:genre "Action" ;
+    ex:rating "6.2"^^xsd:decimal ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_020 a ex:Movie ;
+    ex:title "Seamless_tertiary_extranet" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "7.5"^^xsd:decimal ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_021 a ex:Movie ;
+    ex:title "Up-sized_well-modulated_utilization" ;
+    ex:genre "Drama" ;
+    ex:rating "7.2"^^xsd:decimal ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_022 a ex:Movie ;
+    ex:title "Pre-emptive_6thgeneration_protocol" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "6.4"^^xsd:decimal ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasDirector "Greta Gerwig" .
+
+ex:Movie_023 a ex:Movie ;
+    ex:title "Re-contextualized_systematic_knowledge_user" ;
+    ex:genre "Romance" ;
+    ex:rating "4.0"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_024 a ex:Movie ;
+    ex:title "Automated_eco-centric_task-force" ;
+    ex:genre "Romance" ;
+    ex:rating "6.7"^^xsd:decimal ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_025 a ex:Movie ;
+    ex:title "Progressive_object-oriented_structure" ;
+    ex:genre "Romance" ;
+    ex:rating "5.1"^^xsd:decimal ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasDirector "Greta Gerwig" .
+
+ex:Movie_026 a ex:Movie ;
+    ex:title "Cross-platform_content-based_infrastructure" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.9"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_027 a ex:Movie ;
+    ex:title "Future-proofed_foreground_synergy" ;
+    ex:genre "Romance" ;
+    ex:rating "6.4"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasDirector "Keanu Reeves" .
+
+ex:Movie_028 a ex:Movie ;
+    ex:title "Cloned_optimizing_pricing_structure" ;
+    ex:genre "Romance" ;
+    ex:rating "4.2"^^xsd:decimal ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasDirector "Quentin Tarantino" .
+
+ex:Movie_029 a ex:Movie ;
+    ex:title "De-engineered_full-range_knowledge_user" ;
+    ex:genre "Drama" ;
+    ex:rating "8.2"^^xsd:decimal ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasDirector "Ridley Scott" .
+
+ex:Movie_030 a ex:Movie ;
+    ex:title "Triple-buffered_homogeneous_interface" ;
+    ex:genre "Action" ;
+    ex:rating "3.5"^^xsd:decimal ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_031 a ex:Movie ;
+    ex:title "Self-enabling_dedicated_strategy" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "6.4"^^xsd:decimal ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasDirector "Steven Spielberg" .
+
+ex:Movie_032 a ex:Movie ;
+    ex:title "Ameliorated_responsive_moderator" ;
+    ex:genre "Horror" ;
+    ex:rating "9.2"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_033 a ex:Movie ;
+    ex:title "Cloned_encompassing_artificial_intelligence" ;
+    ex:genre "Drama" ;
+    ex:rating "6.9"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "Martin Scorsese" .
+
+ex:Movie_034 a ex:Movie ;
+    ex:title "Networked_multimedia_focus_group" ;
+    ex:genre "Comedy" ;
+    ex:rating "8.2"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasDirector "Ron Howard" .
+
+ex:Movie_035 a ex:Movie ;
+    ex:title "Horizontal_background_time-frame" ;
+    ex:genre "Drama" ;
+    ex:rating "6.7"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_036 a ex:Movie ;
+    ex:title "Multi-channeled_client-driven_portal" ;
+    ex:genre "Romance" ;
+    ex:rating "6.7"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Tom Hanks" ;
+    ex:hasDirector "Keanu Reeves" .
+
+ex:Movie_037 a ex:Movie ;
+    ex:title "Seamless_methodical_budgetary_management" ;
+    ex:genre "Comedy" ;
+    ex:rating "5.6"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasActor "Scarlett Johansson" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_038 a ex:Movie ;
+    ex:title "Expanded_interactive_methodology" ;
+    ex:genre "Horror" ;
+    ex:rating "4.9"^^xsd:decimal ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasDirector "Ron Howard" .
+
+ex:Movie_039 a ex:Movie ;
+    ex:title "Optional_system-worthy_monitoring" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.4"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "Christopher Nolan" .
+
+ex:Movie_040 a ex:Movie ;
+    ex:title "Pre-emptive_responsive_data-warehouse" ;
+    ex:genre "Action" ;
+    ex:rating "6.5"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasDirector "Ridley Scott" .
+
+ex:Movie_041 a ex:Movie ;
+    ex:title "Persistent_fault-tolerant_concept" ;
+    ex:genre "Drama" ;
+    ex:rating "9.6"^^xsd:decimal ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Lana Wachowski" .
+
+ex:Movie_042 a ex:Movie ;
+    ex:title "Streamlined_scalable_support" ;
+    ex:genre "Romance" ;
+    ex:rating "3.6"^^xsd:decimal ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasActor "Leonardo DiCaprio" ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Ridley Scott" .
+
+ex:Movie_043 a ex:Movie ;
+    ex:title "Devolved_directional_infrastructure" ;
+    ex:genre "Thriller" ;
+    ex:rating "7.3"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasDirector "James Cameron" .
+
+ex:Movie_044 a ex:Movie ;
+    ex:title "Function-based_non-volatile_methodology" ;
+    ex:genre "Action" ;
+    ex:rating "6.1"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Peter Jackson" .
+
+ex:Movie_045 a ex:Movie ;
+    ex:title "Profound_client-server_array" ;
+    ex:genre "Romance" ;
+    ex:rating "8.0"^^xsd:decimal ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Ron Howard" .
+
+ex:Movie_046 a ex:Movie ;
+    ex:title "Proactive_intermediate_instruction_set" ;
+    ex:genre "Thriller" ;
+    ex:rating "7.9"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasDirector "Greta Gerwig" .
+
+ex:Movie_047 a ex:Movie ;
+    ex:title "Customer-focused_radical_circuit" ;
+    ex:genre "Horror" ;
+    ex:rating "7.9"^^xsd:decimal ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Johnny Depp" ;
+    ex:hasActor "Meryl Streep" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasDirector "Ron Howard" .
+
+ex:Movie_048 a ex:Movie ;
+    ex:title "Re-engineered_bandwidth-monitored_support" ;
+    ex:genre "Horror" ;
+    ex:rating "4.0"^^xsd:decimal ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Jennifer Lawrence" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasDirector "Clint Eastwood" .
+
+ex:Movie_049 a ex:Movie ;
+    ex:title "Front-line_optimizing_infrastructure" ;
+    ex:genre "Romance" ;
+    ex:rating "6.0"^^xsd:decimal ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Denzel Washington" ;
+    ex:hasActor "Brad Pitt" ;
+    ex:hasActor "Robert Downey Jr." ;
+    ex:hasDirector "Ron Howard" .
+
+ex:Movie_050 a ex:Movie ;
+    ex:title "Progressive_motivating_extranet" ;
+    ex:genre "Romance" ;
+    ex:rating "8.7"^^xsd:decimal ;
+    ex:hasActor "Natalie Portman" ;
+    ex:hasActor "Christian Bale" ;
+    ex:hasActor "Keanu Reeves" ;
+    ex:hasActor "Angelina Jolie" ;
+    ex:hasDirector "Martin Scorsese" .

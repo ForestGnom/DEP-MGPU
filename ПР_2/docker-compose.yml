@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  # ==========================================
+  # MongoDB
+  # ==========================================
+  mongodb:
+    image: mongo:7.0.17-rc1-jammy
+    container_name: mongodb-1
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=abc123!
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - nosql-net
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=abc123!
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_BASICAUTH_USERNAME=admin
+      - ME_CONFIG_BASICAUTH_PASSWORD=admin123
+    ports:
+      - "28203:8081"
+    networks:
+      - nosql-net
+    depends_on:
+      - mongodb
+
+  # ==========================================
+  # Cassandra
+  # ==========================================
+  cassandra:
+    image: cassandra:3.11
+    container_name: cassandra-1
+    ports:
+      - "29042:9042"  # внешний порт 29042 проброшен на внутренний 9042
+      - "7199:7199"
+      - "9160:9160"
+    volumes:
+      - cassandra-data:/var/lib/cassandra
+    networks:
+      - nosql-net
+    environment:
+      - CASSANDRA_CLUSTER_NAME=TestCluster
+      - CASSANDRA_NUM_TOKENS=128
+      - CASSANDRA_START_RPC=true
+
+  cassandra-web:
+    image: trivadis/cassandra-web:latest
+    container_name: cassandra-web
+    environment:
+      - CASSANDRA_HOST=cassandra
+      - CASSANDRA_PORT=9042
+      - CASSANDRA_USER=
+      - CASSANDRA_PASSWORD=
+    ports:
+      - "28200:3000"
+    networks:
+      - nosql-net
+    depends_on:
+      - cassandra
+
+  # ==========================================
+  # GraphDB
+  # ==========================================
+  graphdb:
+    image: khaller/graphdb-free:10.6.2
+    container_name: graphdb-1
+    ports:
+      - "17200:7200"  # внешний порт 17200 проброшен на внутренний 7200
+    volumes:
+      - graphdb-data:/opt/graphdb/home/data
+    networks:
+      - nosql-net
+
+networks:
+  nosql-net:
+    driver: bridge
+
+volumes:
+  mongo-data:
+  cassandra-data:
+  graphdb-data:
